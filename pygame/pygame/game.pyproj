@@ -3,15 +3,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>26e61668-a954-44f7-b4a9-e90cbec4e3bd</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>Car4.py</StartupFile>
+    <ProjectGuid>f4771935-f323-4dd6-8b79-36961e9d6ad6</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>game.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Car</Name>
-    <RootNamespace>Car</RootNamespace>
+    <Name>game</Name>
+    <RootNamespace>pygame</RootNamespace>
     <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
@@ -24,16 +25,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Car.py" />
-    <Compile Include="Car2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Car3.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Car4.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="game.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ball.bmp" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />

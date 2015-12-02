@@ -3,17 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>26e61668-a954-44f7-b4a9-e90cbec4e3bd</ProjectGuid>
+    <ProjectGuid>f84c3a90-9c88-4494-beeb-7c8d86eed9f2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Car4.py</StartupFile>
+    <StartupFile>filtereven.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Car</Name>
-    <RootNamespace>Car</RootNamespace>
-    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
-    <InterpreterVersion>2.7</InterpreterVersion>
+    <Name>lists</Name>
+    <RootNamespace>lists</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,19 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Car.py" />
-    <Compile Include="Car2.py">
+    <Compile Include="add.py" />
+    <Compile Include="filtereven.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Car3.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Car4.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
